@@ -1,0 +1,118 @@
+@font-face {
+    font-family: fontku;
+    src: url(PantonNarrow-Trial-ExtraBold.woff2)
+}
+body{
+    background-color: whitesmoke;
+    font-family: fontku;
+    height: 600px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+.form{
+    color: azure;
+    margin-top: 50px;
+    background-color: red;
+    border-radius: 15px;
+}
+.dark {
+    background-color: black;
+}
+#ss{
+    display: none;
+}
+.btn{
+    display: inline-block;
+    position: absolute;
+    
+}
+
+.formInput{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    padding: 10px;
+
+}
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 5px 0px;
+    border: 0px solid black;
+    color: white;
+    height: 25px;
+    background-color: maroon;
+    outline-color: white;
+    
+}
+input:hover{
+    background-color: #dc143c;
+    transition: all 0.5s ease;
+}
+
+button{
+    font-family: fontku;
+    background-color: maroon;
+    color: white;
+    margin-top: 10px;
+    height: 30px;
+}
+button:hover{
+    background-color: #dc143c;
+    transition: all 0.5s ease;
+}
+
+.head{
+    display: flex;
+    height: 50px;
+    width: 300px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formInput button{
+    margin: 20px 0px;
+}
+
+
+.con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: static;
+}
+.table{
+    display: none;
+    flex-direction: column;
+    width: 450px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.table header{
+    text-align: center;
+}
+.table td{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+table{
+    width: 350px;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
